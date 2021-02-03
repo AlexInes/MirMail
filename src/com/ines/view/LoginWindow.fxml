@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="265.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ines.controller.LoginWindowController">
+   <children>
+      <Button layoutX="297.0" layoutY="172.0" mnemonicParsing="false" onAction="#loginButtonAction" text="Login" />
+      <Label layoutX="95.0" layoutY="73.0" text="Email Address" />
+      <Label layoutX="95.0" layoutY="104.0" prefHeight="17.0" prefWidth="75.0" text="Password" />
+      <TextField fx:id="LoginEmailField" layoutX="198.0" layoutY="69.0" prefHeight="25.0" prefWidth="306.0" />
+      <PasswordField fx:id="LoginPasswordField" layoutX="199.0" layoutY="100.0" prefHeight="25.0" prefWidth="306.0" />
+      <Label fx:id="LoginErrorField" layoutX="14.0" layoutY="234.0" />
+   </children>
+</AnchorPane>
